@@ -17,8 +17,6 @@ Uses **AI-powered NLP** to categorize and automate email responses, improving co
 ### **💰 Financial Reconciliation**  
 AI-driven **invoice-payment reconciliation** to detect mismatches and verify transactions, reducing financial discrepancies.  
 
----
-
 # Why This Solution?
 - **World-Class AI Integration** – Harnessing the power of Google Gemini AI for intelligent automation.
 - **Enterprise-Grade Efficiency** – Designed to save 1000s of human work hours by automating invoice management & email processing.
@@ -43,7 +41,6 @@ This project consists of **three powerful AI modules**, each solving a critical 
   
 ![image](https://github.com/user-attachments/assets/74719fa3-b79d-45e9-8e2e-50f87c43732e)
 
-
 ## 2. AI-Powered Email Automation (Python + AI)
 - **Objective:** Automates email classification, response generation, and sorting.
 - **Technology Used:**
@@ -57,8 +54,6 @@ This project consists of **three powerful AI modules**, each solving a critical 
   
   ![image](https://github.com/user-attachments/assets/533d2a1b-1aea-44f3-ae8b-72cf6184e85b)
 
-
-
 ## 3. AI-Powered Financial Reconciliation (Python + AI)
 - **Objective:** Automates matching invoices with payments & detecting inconsistencies.
 - **Technology Used:**
@@ -69,7 +64,6 @@ This project consists of **three powerful AI modules**, each solving a critical 
   - **Zero manual reconciliation errors**.
   - **Auto-verifies financial transactions**.
 - **Folder:** [Financial Reconciliation](financial-reconciliation/)
-
 
 # Project Folder Structure
   ```plaintext
