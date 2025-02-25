@@ -16,7 +16,7 @@ CREDENTIALS_FILE = 'client_secret.json'  # Path to Google API credentials
 CSV_FILE = 'reminders.csv'  # Path to your CSV file
 
 # Configure Google AI Studio API
-genai.configure(api_key="AIzaSyAfEF0sTg_NWTDxBhWb_qphGY1uwENp_1M")  # Replace with your API key
+genai.configure(api_key="your_Api_key")  # Replace with your API key
 
 # Authenticate Gmail
 def authenticate_gmail():
