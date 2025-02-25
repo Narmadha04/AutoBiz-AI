@@ -1,0 +1,4 @@
+email,name,invoice_no,amount,due_date,reminder_date,has_paid
+bcd@gamil.com,bcd,INV-21-12-010,4,08/11/2022,2/23/2025,no
+abc@gmail.com,abc,INV-21-12-011,10,08/11/2022,2/23/2025,yes
+lmn@gmail.com,lmn,INV-21-12-010,4,08/11/2022,2/23/2025,no
