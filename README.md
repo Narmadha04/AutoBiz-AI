@@ -1,5 +1,5 @@
 # AutoBiz 
-Revolutionizing Business Efficiency with Cutting-Edge AI Solutions
+Revolutionizing Business Efficiency with AI.
 
 Problem Statement: Enterprise | Intelligent Process Automation
 ---
