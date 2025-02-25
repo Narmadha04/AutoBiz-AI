@@ -39,7 +39,10 @@ This project consists of **three powerful AI modules**, each solving a critical 
 - **Outcome:**
   - Eliminates **manual invoice sorting**.
   - 100% automated document classification using AI.
-- **Folder:** [📂 Document Classification](document-classification/)
+- **Folder:** [Document Classification](document-classification/)
+  
+![image](https://github.com/user-attachments/assets/74719fa3-b79d-45e9-8e2e-50f87c43732e)
+
 
 ## 2. AI-Powered Email Automation (Python + AI)
 - **Objective:** Automates email classification, response generation, and sorting.
@@ -50,7 +53,11 @@ This project consists of **three powerful AI modules**, each solving a critical 
 - **Outcome:**
   - Real-time email automation powered by AI.
   - No manual email sorting needed for enterprises.
-- **Folder:** `/email-automation/`
+- **Folder:** [Email Automation](email-automation/)
+  
+  ![image](https://github.com/user-attachments/assets/533d2a1b-1aea-44f3-ae8b-72cf6184e85b)
+
+
 
 ## 3. AI-Powered Financial Reconciliation (Python + AI)
 - **Objective:** Automates matching invoices with payments & detecting inconsistencies.
@@ -61,7 +68,7 @@ This project consists of **three powerful AI modules**, each solving a critical 
 - **Outcome:**
   - **Zero manual reconciliation errors**.
   - **Auto-verifies financial transactions**.
-- **Folder:** `/financial-reconciliation/`
+- **Folder:** [Financial Reconciliation](financial-reconciliation/)
 
 
 # Project Folder Structure
