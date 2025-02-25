@@ -10,7 +10,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-public class InvoiceClassifier {
+public class document_classifier {
 
     private static final String INPUT_FOLDER = "invoices";
     private static final String OUTPUT_FOLDER = "sorted_invoice";
