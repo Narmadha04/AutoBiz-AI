@@ -8,6 +8,14 @@ Problem Statement: Enterprise | Intelligent Process Automation
 In the fast-paced world of enterprise operations, manual processes slow down productivity and increase human errors.  This project is a **next-generation AI-powered automation system** that transforms business efficiency by automating repetitive workflows with **state-of-the-art AI models (Google Gemini API), NLP, OCR, and intelligent classification algorithms**.
 
 My solution eliminates tedious manual tasks, enabling enterprises to focus on **high-value decision-making** while AI handles the rest.
+### **📄 Document Classification (Finance)**  
+Automates **invoice sorting** using AI & NLP to extract company names and organize files into corresponding folders.  
+
+### **📧 Email Automation**  
+Uses **AI-powered NLP** to categorize and automate email responses, improving communication efficiency.  
+
+### **💰 Financial Reconciliation**  
+AI-driven **invoice-payment reconciliation** to detect mismatches and verify transactions, reducing financial discrepancies.  
 
 ---
 
@@ -31,7 +39,7 @@ This project consists of **three powerful AI modules**, each solving a critical 
 - **Outcome:**
   - Eliminates **manual invoice sorting**.
   - 100% automated document classification using AI.
-- **Folder:** `/document-classification/`
+- **Folder:** [📂 Document Classification](document-classification/)
 
 ## 2. AI-Powered Email Automation (Python + AI)
 - **Objective:** Automates email classification, response generation, and sorting.
@@ -55,20 +63,6 @@ This project consists of **three powerful AI modules**, each solving a critical 
   - **Auto-verifies financial transactions**.
 - **Folder:** `/financial-reconciliation/`
 
----
-
-# Additional AI-Powered Business Ideas 🚀
-My project vision extends beyond the implemented modules. Here are additional **AI-powered enterprise automation solutions** that can be developed:
-
-| **Workflow**            | **Current Manual Process**                                      | **AI Automation Approach**                                     |
-|-------------------------|----------------------------------------------------------------|---------------------------------------------------------------|
-| **Meeting Summaries**   | Employees take notes, summarize discussions.                  | **AI Meeting Bot** transcribes & extracts key points.        |
-| **Customer Escalations** | Support teams manually prioritize complaints.                 | AI **predicts urgency** & routes to the right department.    |
-| **HR & Recruitment**    | Resume screening, candidate follow-ups.                        | AI-powered **resume filtering & candidate ranking**.         |
-| **Customer Support**    | Agents manually respond to tickets.                            | AI **auto-responds** & classifies tickets.                   |
-| **Software Development**| Manual bug triaging, code review, documentation.         | AI-powered **bug detection & auto-documentation**.           |
-
----
 
 # Project Folder Structure
   ```plaintext
@@ -81,8 +75,8 @@ My project vision extends beyond the implemented modules. Here are additional **
 │
 ├── /email-automation              # AI-powered email classification
 │   ├── src/                        # Source code
-│   ├── emails/                     # Sample email input files
-│   ├── processed_emails/           # AI-classified email folders
+│   ├── reminders.csv/              # Input data
+│   ├── processed_emails/           # AI response to the input
 │   ├── README.md                   # Documentation
 │
 ├── /financial-reconciliation      # AI-driven invoice-payment reconciliation
@@ -91,10 +85,6 @@ My project vision extends beyond the implemented modules. Here are additional **
 │   ├── matched_records/            # AI-verified transactions
 │   ├── README.md                   # Documentation
 │
-├── /docs                          # General project documentation
-│
 ├── README.md                      # Main project overview
-└── LICENSE                        # Open-source license
-
 
 
