@@ -14,7 +14,7 @@ public class InvoiceClassifier {
 
     private static final String INPUT_FOLDER = "invoices";
     private static final String OUTPUT_FOLDER = "sorted_invoice";
-    private static final String API_KEY = "AIzaSyBkD9fip6tBlZxokMh76DPOJwi8Ht-nUoM"; // Replace with your API key
+    private static final String API_KEY = "YOUR_API_KEY"; // Replace with your API key
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=" + API_KEY;
 
     public static void main(String[] args) {
