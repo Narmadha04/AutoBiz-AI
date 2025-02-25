@@ -8,7 +8,7 @@ Problem Statement: Enterprise | Intelligent Process Automation
 In the fast-paced world of enterprise operations, manual processes slow down productivity and increase human errors.  This project is a **next-generation AI-powered automation system** that transforms business efficiency by automating repetitive workflows with **state-of-the-art AI models (Google Gemini API), NLP, OCR, and intelligent classification algorithms**.
 
 My solution eliminates tedious manual tasks, enabling enterprises to focus on **high-value decision-making** while AI handles the rest.
-### **📄 Document Classification (Finance)**  
+### **📄 Document Classification**  
 Automates **invoice sorting** using AI & NLP to extract company names and organize files into corresponding folders.  
 
 ### **📧 Email Automation**  
