@@ -79,7 +79,7 @@ python main.py
 
 ## Code Breakdown & Enhancements
 
-### `main.py` – Core Automation Script
+### `email_automater.py` – Core Automation Script
 - **Reads invoice data** from `reminders.csv`.
 - **Generates AI-powered email content** using Google Gemini API.
 - **Authenticates Gmail API** via OAuth 2.0.
