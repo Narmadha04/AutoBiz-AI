@@ -65,6 +65,9 @@ This project consists of **three powerful AI modules**, each solving a critical 
   - **Auto-verifies financial transactions**.
 - **Folder:** [Financial Reconciliation](financial-reconciliation/)
 
+![image](https://github.com/user-attachments/assets/f2e57f97-0cc7-49c8-ae17-647e956f673e)
+
+
 # Project Folder Structure
   ```plaintext
 /ai-enterprise-automation
