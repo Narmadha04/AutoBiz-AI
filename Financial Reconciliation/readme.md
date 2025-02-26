@@ -37,7 +37,7 @@ It leverages Google AI (Gemini API) and Forex Exchange Data to identify discrepa
 ```plaintext
 /financial-reconciliation
 ├── src/                          # Source code
-│   ├── reconciliation.py         # Main script for reconciliation
+│   ├── financial_reconciliation.py         # Main script for reconciliation
 │   ├── forex_converter.py        # Handles currency conversion
 │   ├── ai_analysis.py            # AI-powered transaction analysis
 │   ├── requirements.txt          # Required Python dependencies
@@ -65,31 +65,20 @@ pip install -r requirements.txt
 ```
 
 ### 2) Configure API Key
-Replace `YOUR_API_KEY` in `reconciliation.py` with your **Google Gemini API Key**.
+Replace `YOUR_API_KEY` in `financial_reconciliation.py` with your **Google Gemini API Key**.
 
 ### 4) Run the Reconciliation Script
 ```bash
-python reconciliation.py
+python financial_reconciliation.py
 ```
 **AI will analyze transactions, detect mismatches, and generate a reconciliation report (`reconciliation_report.txt`).**  
 
 ---
 
-## Code Breakdown & Enhancements
-
+## Code Breakdown
 ### 1) `reconciliation.py` – Core Reconciliation Script**
 -  **Loads transaction records** from CSV files.
 -  **Converts foreign currency transactions** into INR using Forex rates.
 -  **Merges data from multiple sources** (Bank, Internal, Vendor).  -
 -  **Uses AI to analyze discrepancies** and classify transactions.  
-- **Saves AI-generated insights** into `reconciliation_report.txt`.  
-
-### 2) `forex_converter.py` – Currency Conversion Module
-🔹 **Reads forex rates from `currency_rates.csv`.  
-🔹 **Converts transaction amounts** into INR for uniform reconciliation.  
-
-### 3) `ai_analysis.py` – AI-Powered Insights
-🔹 **Uses Google Gemini API** to analyze financial records.  
-🔹 **Detects missing transactions, fraud, and classification mismatches**.  
-🔹 **Generates structured insights** in a human-readable format.  
-
+- **Saves AI-generated insights** into `reconciliation_report.txt`.
