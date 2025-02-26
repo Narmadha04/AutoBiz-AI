@@ -1,8 +1,7 @@
 # 📊 AI-Powered Financial Reconciliation System
 
 ## Project Overview
-This AI-powered financial reconciliation system automates the matching of bank transactions, internal records, and vendor invoices while converting foreign currencies to INR.  
-It leverages Google AI (Gemini API) and Forex Exchange Data to identify discrepancies, detect potential fraud, and classify transactions with structured insights.  
+This AI-powered financial reconciliation system automates the matching of bank transactions, internal records, and vendor invoices while converting foreign currencies to INR. It leverages Google AI (Gemini API) and Forex Exchange Data to identify discrepancies, detect potential fraud, and classify transactions with structured insights.  
 
 ---
 
