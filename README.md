@@ -37,7 +37,7 @@ This project consists of **three powerful AI modules**, each solving a critical 
 - **Outcome:**
   - Eliminates **manual invoice sorting**.
   - 100% automated document classification using AI.
-- **Folder:** [Document Classification](document-classification/)
+- **Folder:** [Document Classification](Document Classifier/)
   
 ![image](https://github.com/user-attachments/assets/74719fa3-b79d-45e9-8e2e-50f87c43732e)
 
@@ -50,7 +50,7 @@ This project consists of **three powerful AI modules**, each solving a critical 
 - **Outcome:**
   - Real-time email automation powered by AI.
   - No manual email sorting needed for enterprises.
-- **Folder:** [Email Automation](email-automation/)
+- **Folder:** [Email Automation](Email Automater/)
   
   ![image](https://github.com/user-attachments/assets/533d2a1b-1aea-44f3-ae8b-72cf6184e85b)
 
@@ -63,7 +63,7 @@ This project consists of **three powerful AI modules**, each solving a critical 
 - **Outcome:**
   - **Zero manual reconciliation errors**.
   - **Auto-verifies financial transactions**.
-- **Folder:** [Financial Reconciliation](financial-reconciliation/)
+- **Folder:** [Financial Reconciliation](Financial Reconciliation/)
 
 ![image](https://github.com/user-attachments/assets/f2e57f97-0cc7-49c8-ae17-647e956f673e)
 
