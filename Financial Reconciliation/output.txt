@@ -1,0 +1,71 @@
+```
+==== Transaction Reconciliation Analysis ====
+
+Date: 2024-10-27
+
+The following analysis reconciles the provided transaction data to identify discrepancies, missing entries, and potential fraudulent activities.
+
+==== Data Overview ====
+
+The dataset contains transaction records from two sources (represented by 'Amount_x', 'Currency_x', 'Transaction ID_x' and 'Amount_y', 'Currency_y', 'Transaction ID_y' columns). The '_merge' column indicates whether a transaction is present in both sources ('both'), only the left source ('left_only'), or only the right source ('right_only'). Amounts are provided in original currency and INR equivalent.
+
+==== Analysis of Transaction Discrepancies ====
+
+*   Row 0 (TXN12345): Match Confirmed
+    *   Status: 'both'
+    *   Currency: USD
+    *   Amount: 500.0 USD
+    *   INR Amount: 41500.0 INR
+    *   Classification: Salary
+    *   Comment: Transaction present in both datasets, amounts match, and transaction type identified as salary.
+
+*   Row 1 (TXN67890): Missing Entry in Right Dataset
+    *   Status: 'left_only'
+    *   Currency: EUR
+    *   Amount: 750.0 EUR
+    *   INR Amount: 67230.0 INR
+    *   Classification: Vendor Payment (Supplier Invoice)
+    *   Comment: This supplier invoice is present in the left dataset but missing in the right. Requires further investigation.
+
+*   Row 2 (TXN67890): Missing Entry in Left Dataset, but present in right with Amount Difference.
+    *   Status: 'right_only'
+    *   Currency: EUR
+    *   Amount: 760.0 EUR
+    *   INR Amount: 68126.4 INR. (Calculated)
+    *   Classification: Vendor Payment (Supplier Invoice)
+    *   Comment: This supplier invoice is present in the right dataset but missing in the left, but TXN Id matches with TXN67890, but the amount is different. Requires investigation on which amount is correct.
+
+*   Row 3 (TXN45678): Missing Refund Entry in Right Dataset
+    *   Status: 'left_only'
+    *   Currency: GBP
+    *   Amount: 1000.0 GBP
+    *   INR Amount: 105000.0 INR
+    *   Classification: Refund
+    *   Comment: Refund entry is present only in the left dataset. Requires verification whether the refund was correctly recorded in both systems.
+
+*   Row 4 (TXN99999): Potential Fraudulent Refund in Right Dataset
+    *   Status: 'right_only'
+    *   Currency: GBP
+    *   Amount: 1000.0 GBP
+    *   INR Amount: 105000.0 INR (matches amount of TXN45678)
+    *   Classification: Fraud (Potential)
+    *   Comment:  A refund entry is present only in the right dataset. The description indicates it as a "Fraudulent Refund". The INR amount is the same as the previous legit refund. Requires immediate investigation to confirm the legitimacy of this transaction and the reasons for its classification.
+
+==== Summary of Findings ====
+
+*   Missing Transactions:  Transactions TXN67890 and TXN45678 are missing from one of the datasets. These need to be investigated and added to the appropriate systems.
+
+*   Amount Mismatch:  Transaction TXN67890 (right) has a amount discrepancy (760 EUR vs 750 EUR).  This requires reconciliation to determine the correct amount.
+
+*   Potential Fraud: Transaction TXN99999 is flagged as a potentially fraudulent refund and requires immediate attention and thorough investigation.
+
+==== Recommendations ====
+
+1.  Investigate Missing Transactions:  Determine why TXN67890 and TXN45678 are missing from the respective datasets.
+2.  Reconcile Amount Differences:  Identify the source of the amount differences for TXN67890. Verify supporting documentation (invoices, receipts, etc.) to determine the accurate amounts.
+3.  Investigate Potential Fraud:  Conduct a thorough investigation into TXN99999 to determine if it is a legitimate refund or a fraudulent activity. Review customer details, refund justification, and authorization processes.
+4.  Improve Data Synchronization:  Implement robust data synchronization mechanisms between the systems to prevent future discrepancies and missing transactions. Consider automated reconciliation processes.
+5.  Enhance Fraud Detection:  Implement stronger fraud detection controls and monitoring to identify and prevent fraudulent transactions.
+
+==== End of Report ====
+```
